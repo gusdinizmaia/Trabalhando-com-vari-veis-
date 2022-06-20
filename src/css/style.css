@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+*{
+    text-decoration: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 32px;
+    font-family:'Fascinate', cursive;
+}
+body{
+    max-width: 1200px;
+}
+div{
+    display: flex;
+    width: 50%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+.titulo1, .titulo2{
+    transition: 0.25s ease;
+    cursor: pointer;
+}
+.titulo{
+    padding-top: 40px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.div2{
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.titulo3,a{
+    color: white;
+    cursor: default;
+}
+.div1:focus{
+    background-color: black;
+}
+.div2:hover{
+    color: white;
+}
+.div1:hover{
+    color: white;
+}
